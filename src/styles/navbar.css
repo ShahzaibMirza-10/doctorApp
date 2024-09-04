@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    box-shadow: 1px 5px 10px rgb(22, 30, 62);
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+.nav-logo img{
+    width: 200px;
+
+}
+
+.nav-options{
+    display: flex;
+    align-items: center;
+    margin: 0 70px;
+}
+
+.nav-options ul{
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav-options ul li{
+    list-style: none;
+    margin-left: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-options ul li:hover::before{
+    content: '';
+    display: flex;
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    animation: fade 1s ease-in-out;
+    margin-top: -2px;
+    margin-left: 2px;
+}
+
+@keyframes fade {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 40px;
+    }
+}
+
+
+.nav-options ul li a{
+    text-decoration: none;
+    color: rgb(61, 189, 236);
+    transition: all 0.3s ease-in-out;
+    text-shadow: 2px 2px 5px rgb(33, 33, 33);
+}
+
+.nav-options ul li a:hover{
+    text-shadow: 2px 2px 5px rgb(61, 189, 236);
+    color: rgb(192, 238, 255);
+}
+
+
+
+
+
+.nav-buttons{
+    font-size: 35px;
+    margin: 5px 0 5px 170px;
+    display: flex;
+}
+
+.nav-phone{
+    color: rgb(61, 189, 236);
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-phone:hover{
+    color: rgb(4, 222, 178) ;
+    transform: scale(1.1);
+}
+
+.profile{
+    /* font-size: 40px; */
+    color: rgb(61, 189, 236);
+    margin-left: 20px;
+    transition: all 0.5s ease-in-out;    
+}
+
+.profile:hover{
+    color: rgb(192, 238, 255) ;
+    transform: scale(1.1);
+}

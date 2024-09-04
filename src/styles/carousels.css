@@ -1,0 +1,44 @@
+.carousels{
+    margin-top: 50px;
+}
+
+.carousel-item{
+    /* display: flex; */
+    background-color: #fff;
+    float:left;
+    outline: none;
+    border: none;
+    user-select: none;
+}
+
+.carousel1{
+    background-image: url("../assets/img1.jpg");
+    width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  /* margin-left: 20%; */
+
+}
+
+.carousel2{
+    background-image: url("../assets/img2.jpg");
+    width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: 20%; */
+
+}
+
+.carousel3{
+    background-image: url("../assets/img3.jpg");
+    width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* border: 1px solid red; */
+  /* margin-left: 20%; */
+
+}
